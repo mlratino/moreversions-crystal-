@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<head>
+
+   <!-- bootstrap link -->
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css'
+   />
+  <!-- jquery link -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- css link -->
+   
+<link rel="stylesheet" href="style.css">
+   <title>CRYSTAL COLLECTOR</title>
+</head>
+
+<body>
+   <!-- javascript link -->
+   <script src="game.js"></script>
+   <div class="jumbotron jumbotron-fluid">
+      <div class="container bg-dark">
+         <h1 class="display-2">CRYSTAL HUNTER</h1>
+      </div>
+      <!-- <h1>Number to Guess: <span id="number-to-guess"></span></h1> -->
+      <br/>
+      <h5>You will be given a random number at the start of the game. That is your target.</h5>
+      <h5> Click on one of the four crystals. A specific number of points will be added to your total score.</h5>
+      <h5>Win by matching the total score to the target number without busting.</h5>
+      <h5> Values of the crystals will change after game restarts.</h5>
+   </div>
+   
+   <!-- These 2 divs contain the score -->
+   <div class="values">
+      <div class="lg-rand rands">240</div>
+      <div class="sm-rand rands"></div>
+
+   </div>
+   <div>
+ <!-- create gem buttons in the positions that are available -->
+<button><img class="crystal" src="red.jpg" style= "position:fixed;left:600px; top:400px;"/></button>
+<button><img class="crystal" src="blue.jpg" style="position:fixed;left:800px; top:400px;"/></button>
+<button><img class="crystal" src="purple.jpg" style="position:fixed;left:600px; top:600px;"/></button>
+<button><img class="crystal" src= "green.jpg" style="position:fixed;left:800px; top:600px;"/></button>
+</div>
+ <!-- if/else statement presenting the winning or losing image.hide/reveal    -->
+    
+    <div id="winner"><img src= "winner.jpg" style="position:fixed;left:200px; top:500px;display:none"/>
+
+    <div id="loser"><img src= "loser.jpg" style="position:fixed;left: 200px; top:500px;display:none"/>
+
+    <div id="score"><img src= "target.jpg" style="position:fixed;left: 1300px; top:100px;"/>    
+</div>
+
+<div class="crystals-div">
+   <div class="flip3D btn1 crystal-btn">
+      <div class="back alt-img1 "></div>
+      <div class="front alt-img1"></div>
+   </div>
+   <div class="flip3D btn2 crystal-btn">
+      <div class="back alt-img2"></div>
+      <div class="front alt-img2"></div>
+   </div>
+   <div class="flip3D btn3 crystal-btn">
+      <div class="back alt-img3"></div>
+      <div class="front alt-img3"></div>
+   </div>
+
+   <div class="flip3D btn4 crystal-btn">
+      <div class="back alt-img4"></div>
+      <div class="front alt-img4"></div>
+   </div>
+</div>
+
+   <div class="crystals-div">
+      <div class="wins">Wins:<h1 id="win-count"></h1></div>
+      <div class="loses">Losses:<h1 id="loss-count"></h1></div>
+   </div>
+
+</body>
+
+</html>

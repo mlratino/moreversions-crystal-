@@ -1,0 +1,233 @@
+.display-2 {
+    text-align: center;
+    font-weight: bold;
+    background-color: #fdf900;
+    color: white;
+     text-shadow: 2px 2px 5px black;
+ }
+
+ .jumbotron {
+    background-color: #00ff4c;
+ }
+
+
+ .rands{
+    width: 240px;
+    height: 180px;
+    background: #cc6351;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: -10px 10px 6px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;  
+ }
+
+ .values {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+ }
+
+ p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight:bold;
+    
+    
+ }
+
+ /* ruby rotation animation  */
+
+  .flip3D {
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+    float: left;
+ }
+
+ .flip3D>.front {
+    position: absolute;
+    transform: perspective( 600px) rotateY( 0deg);
+    /* background-image: url("/Users/Snowghost/Desktop/playworkspace/Swarovski crystal Icon/Swarovski-crystal-16.ico"); */
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+ }
+
+ .flip3D>.back {
+    position: absolute;
+    transform: perspective( 600px) rotateY( 180deg);
+   /* background-image: url("/Users/Snowghost/Desktop/playworkspace/Swarovski crystal Icon/Swarovski-crystal-16.ico"); */
+   background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+ }
+
+ .flip3D:hover>.front {
+    transform: perspective( 600px) rotateY( -180deg);
+ }
+
+ .flip3D:hover>.back {
+    transform: perspective( 600px) rotateY( 0deg);
+ }
+
+ .alt-img1{
+      /* background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Diamond Icon/Diamond-icon-256.png"); */
+      background-image: img src="blue.jpg" style="position:fixed;left:300px; top:400px;"/>
+
+
+ }
+
+
+ .alt-img2{
+      /* background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Swarovski crystal Icon/Swarovski-crystal-16.ico"); */
+      background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Diamond Icon/Diamond-icon-256.png");
+
+ }
+
+ .alt-img3{
+      /* background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Garnet Icon/Garnet-icon-256.png"); */
+      background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Diamond Icon/Diamond-icon-256.png");
+
+ }
+
+ .alt-img4{
+      /* background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Gem Icon/Gem-icon-256.png"); */
+      background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Diamond Icon/Diamond-icon-256.png");
+
+ }
+
+ .crystals-div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+ }
+ .display-2 {
+         text-align: center;
+         font-weight: bold;
+         background-color: #d3f6f0;
+         color: white;
+          text-shadow: 2px 2px 5px black;
+      }
+   
+      .jumbotron {
+         background-color: #d3f6f0;
+      }
+
+   
+      .rands{
+         width: 240px;
+         height: 180px;
+         background: #cc6351;
+         color: white;
+         border-radius: 8px;
+         padding: 10px;
+         margin: 10px;
+         display: flex;
+         text-shadow: 2px 2px 5px black;
+         box-shadow: -10px 10px 6px grey;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 60px;  
+      }
+
+      .values {
+         display: flex;
+         justify-content: center;
+         justify-content: space-around;
+      }
+
+      p {
+         padding-top: 30px;
+         text-align: center;
+         font-size: 18px;
+         font-weight:bold;
+         
+         
+      }
+
+      /* ruby rotation animation  */
+
+       .flip3D {
+         width: 240px;
+         height: 240px;
+         margin: 10px;
+         float: left;
+      }
+
+      .flip3D>.front {
+         position: absolute;
+         transform: perspective( 600px) rotateY( 0deg);
+         /* background-image: url("/Users/Snowghost/Desktop/playworkspace/Swarovski crystal Icon/Swarovski-crystal-16.ico"); */
+         background-size: cover;
+         width: 240px;
+         height: 240px;
+         border-radius: 7px;
+         backface-visibility: hidden;
+         transition: transform .5s linear 0s;
+      }
+
+      .flip3D>.back {
+         position: absolute;
+         transform: perspective( 600px) rotateY( 180deg);
+        /* background-image: url("/Users/Snowghost/Desktop/playworkspace/Swarovski crystal Icon/Swarovski-crystal-16.ico"); */
+        background-size: cover;
+         width: 240px;
+         height: 240px;
+         border-radius: 7px;
+         backface-visibility: hidden;
+         transition: transform .5s linear 0s;
+      }
+
+      .flip3D:hover>.front {
+         transform: perspective( 600px) rotateY( -180deg);
+      }
+
+      .flip3D:hover>.back {
+         transform: perspective( 600px) rotateY( 0deg);
+      }
+
+      .alt-img1{
+           background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Diamond Icon/Diamond-icon-256.png");
+      }
+
+
+      .alt-img2{
+           background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Swarovski crystal Icon/Swarovski-crystal-16.ico");
+      }
+
+      .alt-img3{
+           background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Garnet Icon/Garnet-icon-256.png");
+      }
+
+      .alt-img4{
+           background-image: url("../images/iconset-jewelry-icons-by-aha-soft/Gem Icon/Gem-icon-256.png");
+      }
+
+      .crystals-div {
+         display: flex;
+         justify-content: center;
+         justify-content: space-around;
+         font-size: 30px;
+      }
+
+      /*  trying to make my images buttons */
+      /* .btn { */
+         /* cursor: pointer; */
+         
+         /* } */
